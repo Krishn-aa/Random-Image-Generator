@@ -1,0 +1,70 @@
+body{
+    margin:0px;
+    padding:0px;
+    background: linear-gradient(45deg,#130c31,#40284c);
+    background-image: linear-gradient(45deg, rgb(19, 12, 49), rgb(64, 40, 76));
+    
+}
+#heading{
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-size: 48px;
+    padding-top: 175px;
+    font-family: 'Playfair Display', serif;
+    color:#c38d7c;;
+}
+#form{
+    font-size: 30px;
+    margin-top: 45px;
+    font-family: 'Playfair Display';
+    color: aliceblue;
+}
+#div1 {
+    border: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin:0px;
+    padding:0px;
+    text-align: center;
+    height: 602px;
+}
+
+.input{
+    border: 2px solid rgb(19, 133, 240);
+    text-align: center;
+    border-radius: 10px;
+    height: 24px;
+    width: 75px;
+}
+
+
+.ImgBor {
+    border: 2px solid rgb(240, 92, 23);
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;
+    display: block;
+    width: 880px;
+    height: 630px;
+}
+
+#btn {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    border: 2px solid purple;
+    width: 200px;
+    height: 35px;
+    text-decoration: solid;
+    font-weight: 500;
+    border-radius: 10px;
+
+}
+
+#btn:hover{
+    cursor: pointer;
+    background-color: rgb(223, 235, 117);
+    letter-spacing: 3px;
+    transition: 0.5s;
+}
